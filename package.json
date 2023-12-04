@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@bonfida/spl-name-service": "^2.0.0",
     "@solana/web3.js": "^1.87.6"
   }
 }
