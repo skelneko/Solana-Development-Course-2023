@@ -69,7 +69,7 @@ const signature = await web3.sendAndConfirmTransaction(connection, transaction, 
     senderKeypair,
 ]);
 
-const time_taken = new Date() - start_time;
+const time_taken = new Date().getMilliseconds() - start_time.getMilliseconds();
 
 console.log(`Finished! Sent ${LAMPORTS_TO_SEND} to the address ${toPubkey}. Time taken: ${time_taken} ms.`);
 console.log(`Transaction signature is ${signature}! Check your transaction here: https://explorer.solana.com/tx/${signature}?cluster=devnet`);
