@@ -1,8 +1,8 @@
 import { Connection, PublicKey, LAMPORTS_PER_SOL, clusterApiUrl } from "@solana/web3.js";
 import { resolve, NameRegistryState, getAllDomains } from "@bonfida/spl-name-service"; // SNS SDK from Bonfida: https://github.com/Bonfida/sns-sdk
 
-// const NETWORK = "devnet";    // Testnet
-const NETWORK = "mainnet-beta"; // Mainnet
+ const NETWORK = "devnet";    // Testnet
+//const NETWORK = "mainnet-beta"; // Mainnet
 
 
 const SNS = "toly.sol"; // the exersice for querying real SNS, require Bonfida 
